@@ -3486,7 +3486,7 @@ input::-moz-focus-inner {
 }
 
 .s-hero__bg {
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url('https://raw.githubusercontent.com/kasei8/market/main/path/to/images/Phoenix-PNG-Clipart-3.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3520,6 +3520,7 @@ input::-moz-focus-inner {
     background: linear-gradient(180deg, black 10%, rgba(0, 0, 0, 0) 100%);
     opacity: .35;
 }
+
 
 
 /* ------------------------------------------------------------------- 
