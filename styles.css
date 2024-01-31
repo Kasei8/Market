@@ -260,10 +260,85 @@
 
 /* on mobile devices below 480px
  */
-@media screen and (max-width: 480px) {
-    :root {
-        --base-font-size: 1.6rem;
-        --space         : 2.8rem;
+Sure, I can provide a general template for the HTML, CSS, and JS based on the snippets you've provided. Please note that you might need to adapt this to fit your specific project structure and requirements.
+
+### HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Include meta tags, title, and other head elements here -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <!-- Include your stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Your HTML content goes here -->
+    <div class="s-header">
+        <!-- Header content -->
+    </div>
+
+    <div class="folio-item">
+        <!-- Portfolio item content -->
+    </div>
+
+    <div class="s-clients">
+        <!-- Clients content -->
+    </div>
+
+    <div class="s-footer">
+        <!-- Footer content -->
+    </div>
+
+    <!-- Include your scripts -->
+    <script src="jquery.min.js"></script>
+    <script src="photoswipe.min.js"></script>
+    <script src="your-other-scripts.js"></script>
+</body>
+</html>
+```
+
+### CSS (`styles.css`):
+
+```css
+/* Include your CSS styles here */
+/* ... */
+
+@media screen and (max-width: 600px) {
+    /* Responsive styles for small screens */
+    /* ... */
+}
+
+/* Other CSS styles... */
+```
+
+### JS (`your-other-scripts.js`):
+
+```js
+// Include your JavaScript code here
+(function ($) {
+    // Your existing JavaScript code...
+    // ...
+
+    // Example: Add a click event to an element
+    $('.your-element').on('click', function () {
+        // Your click event logic...
+    });
+
+    // Initialize other components...
+    ssSlickSlider();
+    ssAOS();
+    ssAlertBoxes();
+    ssSmoothScroll();
+    ssBackToTop();
+
+})(jQuery);
+```
+
+Make sure to replace placeholders like `your-element` and customize the content within the HTML, CSS, and JS based on your project requirements. If you encounter specific issues or have more detailed requirements, feel free to provide additional information for further assistance.
     }
 }
 
